@@ -49,8 +49,8 @@ This project demonstrates a **production-ready WordPress deployment** on AWS usi
 
 ### 1. Clone the Repository
 ```bash
-git clone <your-repo-url>
-cd Wordpress-Mysql-Terraform_Project
+git clone https://github.com/Harshwardhanjadhav0/Terraform-and-AWS-Project---Wordpress-Mysql.git
+cd Terraform-and-AWS-Project---Wordpress-Mysql
 ```
 
 ### 2. Configure AWS Credentials
