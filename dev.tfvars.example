@@ -1,0 +1,19 @@
+AWS_REGION = "us-east-1"
+
+VPC_CIDR = "10.0.0.0/16"
+
+PUBLIC_SUBNET_AZ_1a = "us-east-1a"
+PUBLIC_SUBNET_AZ_1b = "us-east-1b"
+PRIVATE_SUBNET_AZ_1a = "us-east-1a"
+PRIVATE_SUBNET_AZ_1b = "us-east-1b"
+
+RDS_ALLOCATED_STORAGE = "20"
+RDS_DB_ENGINE = "mysql"
+RDS_DB_ENGINE_VERSION = "8.0.35"
+RDS_DB_INSTANCE_CLASS = "db.t3.micro"
+DB_USERNAME = "your_username"
+DB_PASSWORD = "your_secure_password"
+
+AMI_ID = "ami-018046b953a698135"  # Amazon Linux 2 for us-east-1
+INSTANCE_TYPE = "t2.micro"
+KEYPAIR_NAME = "your-keypair-name"
